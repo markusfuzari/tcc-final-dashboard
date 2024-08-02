@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Carrega o arquivo CSV
-df = pd.read_csv('../Resultado.csv')
+df = pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vSdpEBIY-5OSh5f9cLXZGXTE961izKTghTHUWVBu7COan9bs_WNpNvmouMcKtVBZi5HfI2MVN3qjoMW/pub?gid=0&single=true&output=csv')
 
 # Título do app
 st.title('Visualização de Dados de Hipertensão')
